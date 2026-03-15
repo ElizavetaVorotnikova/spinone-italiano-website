@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spinone Italiano</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="hero">
+
+<div class="hero-text">
+<h1>Spinone Italiano</h1>
+<p>The Gentle Italian Hunting Dog</p>
+<a href="#about" class="btn">Discover the Breed</a>
+</div>
+
+</header>
+
+
+<nav>
+
+<a href="#about">About</a>
+<a href="#history">History</a>
+<a href="#temperament">Temperament</a>
+<a href="#care">Care</a>
+<a href="#facts">Fun Facts</a>
+<a href="#gallery">Gallery</a>
+
+<button id="themeToggle">🌙</button>
+
+</nav>
+
+
+<section id="about">
+
+<h2>About the Spinone Italiano</h2>
+
+<p>
+The Spinone Italiano is a large Italian hunting dog known for its calm temperament,
+loyal personality, and distinctive shaggy coat. Originally bred to track, point,
+and retrieve game, it is one of the most versatile hunting dogs in Europe.
+</p>
+
+<p>
+Despite its strong working abilities, the Spinone is famous for its gentle nature
+and strong bond with its human family. Today the breed is both a capable sporting
+dog and a loving companion.
+</p>
+
+</section>
+
+
+<section id="history">
+
+<h2>History</h2>
+
+<p>
+The Spinone Italiano is one of the oldest pointing dog breeds in Europe. 
+Dogs resembling the Spinone can be traced back more than 2,000 years, with 
+ancestors believed to have existed as early as 500 B.C. in ancient Italy.
+</p>
+
+<p>
+During the Renaissance, rough-coated hunting dogs similar to the Spinone 
+appeared in Italian paintings and writings. These dogs were valued by 
+hunters for their endurance, intelligence, and ability to work in difficult 
+terrain such as forests, mountains, and marshes.
+</p>
+
+<p>
+The Spinone was bred as a versatile hunting dog capable of tracking, 
+pointing, and retrieving game on both land and in water. Unlike faster 
+pointing breeds, the Spinone worked methodically and carefully, relying 
+on its excellent sense of smell and steady pace to locate game.
+</p>
+
+<p>
+The breed suffered greatly during World War II, when many dogs were lost 
+and the population declined significantly. After the war, dedicated 
+breeders began rebuilding the breed in the 1950s, restoring the Spinone’s 
+traditional appearance and hunting abilities.
+</p>
+
+<p>
+Today the Spinone Italiano is appreciated not only as a capable hunting dog 
+but also as a loyal family companion known for its calm and affectionate nature.
+</p>
+
+</section>
+
+
+<section id="temperament">
+
+<h2>Temperament</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Friendly</h3>
+<p>Spinoni are affectionate and sociable dogs that enjoy human company.</p>
+</div>
+
+<div class="card">
+<h3>Intelligent</h3>
+<p>They are intelligent and trainable, although sometimes a little stubborn.</p>
+</div>
+
+<div class="card">
+<h3>Family Dog</h3>
+<p>Spinoni bond strongly with their families and are usually great with children.</p>
+</div>
+
+<div class="card">
+<h3>Active</h3>
+<p>They love outdoor activities like hiking, swimming and exploring.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section id="care">
+
+<h2>Care & Grooming</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Exercise</h3>
+<p>
+Spinoni are active dogs that need daily walks and outdoor activities.
+They enjoy long hikes and exploring nature.
+</p>
+</div>
+
+<div class="card">
+<h3>Grooming</h3>
+<p>
+Their rough coat requires brushing several times a week.
+Their beard may also need regular cleaning after meals.
+</p>
+</div>
+
+<div class="card">
+<h3>Health</h3>
+<p>
+Spinoni are generally healthy dogs but may be prone to hip dysplasia
+and certain eye conditions.
+</p>
+</div>
+
+<div class="card">
+<h3>Training</h3>
+<p>
+Positive reinforcement works best when training this intelligent
+but sometimes stubborn breed.
+</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section id="facts">
+
+<h2>Fun Facts</h2>
+
+<ul>
+
+<li>The Spinone has a distinctive beard and moustache.</li>
+<li>The breed is an excellent swimmer.</li>
+<li>The name "Spinone" comes from the Italian word for thorny bushes.</li>
+<li>They are often called "gentle giants".</li>
+<li>Spinoni are sometimes used as therapy dogs.</li>
+
+</ul>
+
+</section>
+
+
+<section id="gallery">
+
+<h2>Gallery</h2>
+
+<div class="gallery">
+
+<img src="images/spinone1.jpg">
+<img src="images/spinone2.jpg">
+<img src="images/spinone3.jpg">
+<img src="images/spinone4.jpg">
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>Spinone Italiano Website </p>
+
+</footer>
+
+
+<script>
+
+const toggle = document.getElementById("themeToggle")
+
+toggle.onclick = () => {
+
+document.body.classList.toggle("dark")
+
+if(document.body.classList.contains("dark")){
+toggle.textContent = "☀️"
+}else{
+toggle.textContent = "🌙"
+}
+
+}
+
+</script>
+
+</body>
+</html>
